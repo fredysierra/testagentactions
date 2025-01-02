@@ -26,6 +26,8 @@ on:
         default: ""
         description: "Custom sandbox env"
     secrets:
+      LLM_MODEL:
+        required: false
       LLM_API_KEY:
         required: true
       LLM_BASE_URL:
